@@ -31,13 +31,13 @@ namespace DiChoThue.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> HuyDonHang(string id)
         {
-            var donHang = await _collection.Find(c => c.MaDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c.maDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
             if (donHang == null)
             {
                 return NotFound();
             }
-            donHang.TrangThai = "Đã huỷ";
-            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.MaDonHang == id, donHang).ConfigureAwait(false);
+            donHang.trangThai = "Đã huỷ";
+            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.maDonHang == id, donHang).ConfigureAwait(false);
             return NoContent();
         }
     }

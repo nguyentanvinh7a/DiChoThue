@@ -25,7 +25,7 @@ namespace DiChoThue.Controllers
             _settings = settings.Value;
             var client = new MongoClient(_settings.ConnectionString);
             var database = client.GetDatabase(_settings.DatabaseName);
-            _collection = database.GetCollection<DonHang>(_settings.CollectionName);
+            _collection = database.GetCollection<DonHang>("DonHang");
         }
 
         [HttpGet]
@@ -36,7 +36,7 @@ namespace DiChoThue.Controllers
         [HttpGet("{id}")]
         public async Task<DonHang> Get(string id)
         {
-            var donHang = await _collection.Find(c => c.MaDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c.maDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
             return donHang;
         }
 
@@ -49,40 +49,40 @@ namespace DiChoThue.Controllers
         [HttpPut("/HuyDonHang/{id}")]
         public async Task<IActionResult> HuyDonHang(string id)
         {
-            var donHang = await _collection.Find(c => c.MaDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c.maDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
             if (donHang == null)
             {
                 return NotFound();
             }
-            donHang.TrangThai = "Đã huỷ";
-            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.MaDonHang == id, donHang).ConfigureAwait(false);
+            donHang.trangThai = "Đã huỷ";
+            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.maDonHang == id, donHang).ConfigureAwait(false);
             return NoContent();
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, DonHang donHangIn)
         {
-            var donHang = await _collection.Find(c => c.MaDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c.maDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
             if (donHang == null)
             {
                 return NotFound();
             }
-            donHangIn.Id = donHang.Id;
-            donHangIn.MaDonHang = donHang.MaDonHang;
-            if (donHangIn.ThoiGianDat == null) donHangIn.ThoiGianDat = donHang.ThoiGianDat;
-            if (donHangIn.TrangThai == null) donHangIn.TrangThai = donHang.TrangThai;
-            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.MaDonHang == id, donHangIn).ConfigureAwait(false);
+            donHangIn.id = donHang.id;
+            donHangIn.maDonHang = donHang.maDonHang;
+            if (donHangIn.thoiGianDat == null) donHangIn.thoiGianDat = donHang.thoiGianDat;
+            if (donHangIn.trangThai == null) donHangIn.trangThai = donHang.trangThai;
+            var updatedDonHang = await _collection.ReplaceOneAsync(c => c.maDonHang == id, donHangIn).ConfigureAwait(false);
             return NoContent();
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync(string id)
         {
-            var donHang = await _collection.Find(c => c.MaDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c.maDonHang == id).FirstOrDefaultAsync().ConfigureAwait(false);
             if (donHang == null)
             {
                 return NotFound();
             }
 
-            var updatedDonHang = await _collection.DeleteOneAsync(c => c.MaDonHang == id).ConfigureAwait(false);
+            var updatedDonHang = await _collection.DeleteOneAsync(c => c.maDonHang == id).ConfigureAwait(false);
             return NoContent();
         }
     }
