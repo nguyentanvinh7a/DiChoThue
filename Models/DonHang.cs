@@ -10,12 +10,16 @@ namespace DiChoThue.Models
     public class DonHang
     {
         [BsonId]
-        public ObjectId id { get; set; }
+        public ObjectId _id { get; set; }
         [BsonElement]
-        public string maDonHang { get; set; }
+        public int tinhTrang { get; set; }
         [BsonElement]
-        public string trangThai { get; set; }
+        public DateTime thoiGianDat { get; set; }
         [BsonElement]
-        public string thoiGianDat { get; set; }
+        public ObjectId nguoiMua { get; set; }
+        [BsonElement]
+        public ObjectId phuongThucThanhToan { get; set; }
+        [BsonElement]
+        public ObjectId shipper { get; set; }
     }
 }

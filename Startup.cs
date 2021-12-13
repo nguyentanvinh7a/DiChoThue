@@ -27,6 +27,16 @@ namespace DiChoThue
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", p =>
+                {
+                    p.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
+            services.AddRouting(r => r.SuppressCheckForUnhandledSecurityMetadata = true);
             services.AddHttpsRedirection(options => { options.HttpsPort = 443; });
             services.Configure<DbConfiguration>(Configuration.GetSection("MongoDbConnection"));
             services.AddControllers();
@@ -42,6 +52,14 @@ namespace DiChoThue
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("AllowAll");
+
+            app.Use((context, next) =>
+            {
+                context.Items["__CorsMiddlewareInvoked"] = true;
+                return next();
+            });
+
             app.UseForwardedHeaders();
 
             if (env.IsDevelopment())
