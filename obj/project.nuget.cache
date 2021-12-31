@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+UsmYQC9qzwPOQDqEtlWGwBD1RrkJhDTQ+ncjiYUC906oOzhgc3cO888G1Faj9HpqAsHCvXe/RQoA8qfqud3g==",
+  "dgSpecHash": "0CnfA0OJJ2TNDcYoM6yNLNuqIfVcQ1KVc9w2y29ussSENw1xFNN+xoZlN5/wToSdqptOtjnFoiKvMalsBOz7uQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj",
+  "projectFilePath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vinh\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Vinh\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

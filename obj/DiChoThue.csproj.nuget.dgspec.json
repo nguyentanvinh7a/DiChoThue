@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj": {}
+    "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj": {
+    "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj",
+        "projectUniqueName": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
         "projectName": "DiChoThue",
-        "projectPath": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj",
+        "projectPath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
         "packagesPath": "C:\\Users\\Vinh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\obj\\",
+        "outputPath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinh\\AppData\\Roaming\\NuGet\\NuGet.Config",

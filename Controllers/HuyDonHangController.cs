@@ -34,12 +34,11 @@ namespace DiChoThue.Controllers
         public async Task<IActionResult> HuyDonHang(string id)
         {
             var donHang = await _collection.Find(c => c._id == (new ObjectId(id))).FirstOrDefaultAsync().ConfigureAwait(false);
-            Console.WriteLine("Don hang ne: ", donHang);
             if (donHang == null)
             {
                 return NotFound();
             }
-            donHang.tinhTrang = 2;
+            donHang.tinhTrang = "Đã huỷ";
             var updatedDonHang = await _collection.ReplaceOneAsync(c => c._id == (new ObjectId(id)), donHang).ConfigureAwait(false);
             return Ok(donHang);
         }
