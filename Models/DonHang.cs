@@ -31,5 +31,7 @@ namespace DiChoThue.Models
         public int khDanhGiaShipper { get; set; }
         [BsonElement]
         public int tongTien { get; set; }
+        [BsonElement]
+        public string tinhTrangCu { get; set; }
     }
 }
