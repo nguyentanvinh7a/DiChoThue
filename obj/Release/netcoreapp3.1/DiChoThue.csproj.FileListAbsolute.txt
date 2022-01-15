@@ -37,3 +37,41 @@ C:\Users\Vinh\Desktop\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.csproj.CopyC
 C:\Users\Vinh\Desktop\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.dll
 C:\Users\Vinh\Desktop\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.pdb
 C:\Users\Vinh\Desktop\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.genruntimeconfig.cache
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\appsettings.json
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.StaticWebAssets.xml
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.exe
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.deps.json
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.runtimeconfig.json
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.runtimeconfig.dev.json
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DiChoThue.pdb
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\DnsClient.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\MongoDB.Bson.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\MongoDB.Driver.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\SharpCompress.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\linux\native\libsnappy64.so
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\linux\native\libzstd.so
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\osx\native\libsnappy64.dylib
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\osx\native\libzstd.dylib
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\HTTTHD\New folder\DiChoThue\bin\Release\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.csproj.AssemblyReference.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.GeneratedMSBuildEditorConfig.editorconfig
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.AssemblyInfoInputs.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.AssemblyInfo.cs
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.csproj.CoreCompileInputs.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.MvcApplicationPartsAssemblyInfo.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\staticwebassets\DiChoThue.StaticWebAssets.Manifest.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.RazorTargetAssemblyInfo.cache
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.csproj.CopyComplete
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.dll
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.pdb
+D:\HTTTHD\New folder\DiChoThue\obj\Release\netcoreapp3.1\DiChoThue.genruntimeconfig.cache

@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj": {}
+    "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj": {
+    "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj",
+        "projectUniqueName": "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj",
         "projectName": "DiChoThue",
-        "projectPath": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\DiChoThue.csproj",
-        "packagesPath": "C:\\Users\\Vinh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinh\\Desktop\\DiChoThue\\obj\\",
+        "projectPath": "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj",
+        "packagesPath": "C:\\Users\\Dinh Quang Tho\\.nuget\\packages\\",
+        "outputPath": "D:\\HTTTHD\\New folder\\DiChoThue\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dinh Quang Tho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -40,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.4, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -75,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
