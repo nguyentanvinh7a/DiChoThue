@@ -12,14 +12,26 @@ namespace DiChoThue.Models
         [BsonId]
         public ObjectId _id { get; set; }
         [BsonElement]
-        public int tinhTrang { get; set; }
+        public string tinhTrang { get; set; }
         [BsonElement]
         public DateTime thoiGianDat { get; set; }
         [BsonElement]
         public ObjectId nguoiMua { get; set; }
         [BsonElement]
-        public ObjectId phuongThucThanhToan { get; set; }
+        public string phuongThucThanhToan { get; set; }
         [BsonElement]
         public ObjectId shipper { get; set; }
+        [BsonElement]
+        public ObjectId cuaHang { get; set; }
+        [BsonElement]
+        public int danhGiaCuaKH { get; set; }
+        [BsonElement]
+        public int danhGiaCuaNhaCC { get; set; }
+        [BsonElement]
+        public int khDanhGiaShipper { get; set; }
+        [BsonElement]
+        public int tongTien { get; set; }
+        [BsonElement]
+        public string tinhTrangCu { get; set; }
     }
 }

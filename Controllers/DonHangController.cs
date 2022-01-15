@@ -35,7 +35,7 @@ namespace DiChoThue.Controllers
         [HttpGet("{id}")]
         public async Task<DonHang> Get(string id)
         {
-            var donHang = await _collection.Find(c => c._id.ToString() == id).FirstOrDefaultAsync().ConfigureAwait(false);
+            var donHang = await _collection.Find(c => c._id == (new ObjectId(id))).FirstOrDefaultAsync().ConfigureAwait(false);
             return donHang;
         }
 

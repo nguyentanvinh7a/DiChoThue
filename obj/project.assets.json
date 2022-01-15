@@ -5110,11 +5110,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj",
       "projectName": "DiChoThue",
       "projectPath": "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj",
       "packagesPath": "C:\\Users\\Dinh Quang Tho\\.nuget\\packages\\",
       "outputPath": "D:\\HTTTHD\\New folder\\DiChoThue\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
+      "projectName": "DiChoThue",
+      "projectPath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
+      "packagesPath": "C:\\Users\\Vinh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\obj\\",
+>>>>>>> 03fb11eb182beab2a56d96e8328d4e4cc83e88e2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

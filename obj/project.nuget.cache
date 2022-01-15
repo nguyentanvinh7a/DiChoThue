@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "XHlsrWnVk2z7+0MfjBvJcFaaPOAc3CS4vxohmMLPepsKcSG7BvZW/rZL7jQNUhDWK2jmjg5lNKFmGKX4Mj9WHw==",
   "success": true,
   "projectFilePath": "D:\\HTTTHD\\New folder\\DiChoThue\\DiChoThue.csproj",
+=======
+  "dgSpecHash": "0CnfA0OJJ2TNDcYoM6yNLNuqIfVcQ1KVc9w2y29ussSENw1xFNN+xoZlN5/wToSdqptOtjnFoiKvMalsBOz7uQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinh\\Desktop\\PT UDHTTT HD\\DiChoThue\\DiChoThue.csproj",
+>>>>>>> 03fb11eb182beab2a56d96e8328d4e4cc83e88e2
   "expectedPackageFiles": [
     "C:\\Users\\Dinh Quang Tho\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Dinh Quang Tho\\.nuget\\packages\\epplus\\5.8.4\\epplus.5.8.4.nupkg.sha512",
